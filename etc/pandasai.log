@@ -1,0 +1,195 @@
+2024-10-19 21:53:43 [INFO] Question: 가게를 매출로 오름차순 정렬해줘
+2024-10-19 21:53:43 [INFO] Running PandasAI with openai LLM...
+2024-10-19 21:53:43 [INFO] Prompt ID: 1d554adb-fdc9-4d40-b700-ec7806395323
+2024-10-19 21:53:43 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-10-19 21:53:43 [INFO] Executing Step 0: ValidatePipelineInput
+2024-10-19 21:53:43 [INFO] Executing Step 1: CacheLookup
+2024-10-19 21:53:43 [INFO] Executing Step 2: PromptGeneration
+2024-10-19 21:53:43 [INFO] Using prompt: dfs[0]:
+  name: null
+  description: null
+  type: pd.DataFrame
+  rows: 5
+  columns: 3
+  schema:
+    fields:
+    - name: restaurant
+      type: object
+      samples:
+      - McDonald's
+      - Starbucks
+      - Subway
+    - name: sales
+      type: int64
+      samples:
+      - 50
+      - 60
+      - 100
+    - name: profit
+      type: int64
+      samples:
+      - 30
+      - 15
+      - 10
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 가게를 매출로 오름차순 정렬해줘
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-10-19 21:53:43 [INFO] Executing Step 3: CodeGenerator
+2024-10-19 21:53:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-10-19 21:53:43 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************uUA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-10-19 21:53:53 [INFO] Question: 가게를 매출로 오름차순 정렬해줘
+2024-10-19 21:53:53 [INFO] Running PandasAI with openai LLM...
+2024-10-19 21:53:53 [INFO] Prompt ID: 6b4d9f2e-3d58-4c07-93b1-c6188d153a6b
+2024-10-19 21:53:53 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-10-19 21:53:53 [INFO] Executing Step 0: ValidatePipelineInput
+2024-10-19 21:53:53 [INFO] Executing Step 1: CacheLookup
+2024-10-19 21:53:53 [INFO] Executing Step 2: PromptGeneration
+2024-10-19 21:53:53 [INFO] Using prompt: dfs[0]:
+  name: null
+  description: null
+  type: pd.DataFrame
+  rows: 5
+  columns: 3
+  schema:
+    fields:
+    - name: restaurant
+      type: object
+      samples:
+      - KFC
+      - Burger King
+      - Subway
+    - name: sales
+      type: int64
+      samples:
+      - 60
+      - 70
+      - 100
+    - name: profit
+      type: int64
+      samples:
+      - 10
+      - 15
+      - 30
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 가게를 매출로 오름차순 정렬해줘
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-10-19 21:53:53 [INFO] Executing Step 3: CodeGenerator
+2024-10-19 21:53:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-10-19 21:53:53 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************uUA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-10-19 21:54:50 [INFO] Question: 가게를 매출로 오름차순 정렬해줘
+2024-10-19 21:54:50 [INFO] Running PandasAI with openai LLM...
+2024-10-19 21:54:50 [INFO] Prompt ID: 0a13db61-f5fb-4bfe-b75e-c251ef290640
+2024-10-19 21:54:50 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-10-19 21:54:50 [INFO] Executing Step 0: ValidatePipelineInput
+2024-10-19 21:54:50 [INFO] Executing Step 1: CacheLookup
+2024-10-19 21:54:50 [INFO] Executing Step 2: PromptGeneration
+2024-10-19 21:54:50 [INFO] Using prompt: dfs[0]:
+  name: null
+  description: null
+  type: pd.DataFrame
+  rows: 5
+  columns: 3
+  schema:
+    fields:
+    - name: restaurant
+      type: object
+      samples:
+      - KFC
+      - Subway
+      - McDonald's
+    - name: sales
+      type: int64
+      samples:
+      - 50
+      - 100
+      - 80
+    - name: profit
+      type: int64
+      samples:
+      - 30
+      - 15
+      - 10
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 가게를 매출로 오름차순 정렬해줘
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-10-19 21:54:50 [INFO] Executing Step 3: CodeGenerator
+2024-10-19 21:54:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-10-19 21:54:50 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************qUA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
