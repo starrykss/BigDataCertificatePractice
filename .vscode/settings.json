@@ -1,7 +1,11 @@
 {
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
   "editor.suggestOnTriggerCharacters": false,
-  "editor.wordBasedSuggestions": false,
+  "editor.wordBasedSuggestions": "off",
   "editor.parameterHints.enabled": false,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "html.suggest.html5": false,
